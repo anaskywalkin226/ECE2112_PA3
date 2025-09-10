@@ -8,7 +8,7 @@ Step 1: Importing the Pandas library is the most important step when coding scri
 ```py
 cars = pd.read_csv("cars.csv")
 ```
-Step 2: Load the pre-existing csv file provided and set the file to the variable cars using the code "pd.read_csv" which tells the system to read this csv file and assign it to that variable. The one in the parenthesis is the file that it is going to read. It is supposeed to be in the same folder as the notebook file in order for it to read the csv file.
+Step 2: Load the pre-existing csv file provided and set the file to the variable cars using the code "pd.read_csv" which tells the system to read the csv file in the parenthesis--in this case "cars.csv", and assign it to the variable cars. Note that it has to be in the same folder as the notebook file in order for it to read the csv file.
 
 ```py
 cars
@@ -160,6 +160,6 @@ Model	cyl	gear
 28	Ford Pantera L	8	5
 18	Honda Civic	4	4
 ```
-Step 6: Utilizing the code ".loc" can also output multiple columnns at the same time. Using this, we are able to print out the columns that contain the values of "Model", "cyl", and "gear".
+Step 6: Utilizing the code ".loc" can also output multiple columnns at the same time using strings instead of indices. Using this, we are able to print out the columns that contain the values of "Model", "cyl", and "gear".
 
 # ------------------------------------------------------------------------------
