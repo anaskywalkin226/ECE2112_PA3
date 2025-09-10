@@ -66,7 +66,7 @@ Model	mpg	cyl	disp	hp	drat	wt	qsec	vs	am	gear	carb
 ```
 Step 3: Display the first and last fives rows of the resulting cars. We did this by using a Pandas command "cars.head()" for the first five, and "cars.tail()" for the last five, and at the same time, in order to output it seemlessly, we concatenate said outputs using "pd.concat".
 
-## -----------------------------------------------------------------------------------------------
+## ------------------------------------------------------------------------------------
 ## Problem 2
 
 ```py
@@ -162,4 +162,4 @@ Model	cyl	gear
 ```
 Step 6: Utilizing the code ".loc" can also output multiple columnns at the same time using strings instead of indices. Using this, we are able to print out the columns that contain the values of "Model", "cyl", and "gear".
 
-# ------------------------------------------------------------------------------
+# ----------------------------------------------------------------------
